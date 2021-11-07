@@ -1,3 +1,38 @@
-.nav {
-  text-decoration: none;
+.App {
+  margin-top: 50px;
+  /* background-color: #8c1c13; */
+  height: 100vh;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.home-content {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+.kimber-info {
+  display: flex;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 50px;
+}
+
+.kimber-text {
+  padding-left: 25px;
+}
+
+.duke-info {
+  display: flex;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 50px;
+}
+
+.duke-text {
+  padding-right: 25px;
+  text-align: right;
 }

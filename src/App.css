@@ -2,6 +2,7 @@
   margin-top: 50px;
   /* background-color: #8c1c13; */
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -16,23 +17,64 @@
 
 .kimber-info {
   display: flex;
-  margin-left: 30%;
-  margin-right: 30%;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 50px;
+}
+
+.parent-dog-img {
+  margin: 10px;
 }
 
 .kimber-text {
   padding-left: 25px;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 1000px;
 }
 
-.duke-info {
+/* .duke-info {
   display: flex;
   margin-left: 30%;
   margin-right: 30%;
   margin-top: 50px;
-}
+} */
 
 .duke-text {
   padding-right: 25px;
+  margin-top: 20px;
+  margin-left: 10px;
   text-align: right;
+  width: 1000px;
+}
+
+.blog-grid {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content a {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.contact-block {
+  background-color: #8c1c13;
+  color: #ffffff;
+  padding: 20px 20px 20px 20px;
 }

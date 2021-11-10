@@ -13,19 +13,24 @@ function Home() {
         <p>Mountain River Silver Labs are silver factored labrador puppies bred right out of a loving home in Eastern Idaho.</p>
       </div>
       <div className='kimber-info'>
-        <img src={kimberMom} alt='Black Labrador mother dog' height='300px' />
+        <div className='duke-text'>
+          <h3>Silver Duke</h3>
+          <p>Silver Duke was a Silver Lab stud. He is no longer our stud, he was sold or something like that. Some more words are going to go in here, probably to better describe the dog.</p>
+        </div>
+        <img className='parent-dog-img' src={dukeDad} alt='Black Labrador mother dog' height='300px' />
+        <img className='parent-dog-img' src={kimberMom} alt='Black Labrador mother dog' height='300px' />
         <div className='kimber-text'>
           <h3>Kimber</h3>
-          <p>Kimber is a Silver Factored Black Lab.</p>
+          <p>Kimber is a Silver Factored Black Lab. She is a very silly dog, sometimes annoying. Some more words are going to go in here, probably to better describe the dog.</p>
         </div>
       </div>
-      <div className='duke-info'>
+      {/* <div className='duke-info'>
         <div className='duke-text'>
           <h3>Silver Duke</h3>
           <p>Silver Duke was a Silver Lab stud. He is no longer our stud, he was sold or something like that.</p>
         </div>
         <img src={dukeDad} alt='Black Labrador mother dog' height='300px' />
-      </div>
+      </div> */}
     </div>
   )
 }

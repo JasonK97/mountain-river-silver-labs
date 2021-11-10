@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader'
 import Home from './components/Home'
 import Litters from './components/Litters'
 import Blog from './components/Blog'
+import BlogPost from './components/BlogPost'
 import Contact from './components/Contact'
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path='/blog'>
             <Blog />
+          </Route>
+          <Route path='/blog/:blogSlug'>
+            <BlogPost />
           </Route>
           <Route path='/contact'>
             <Contact />
